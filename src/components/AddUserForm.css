@@ -1,0 +1,98 @@
+.modal-form {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 97%;
+  width: 40%;
+  max-width: 500px;
+  background-color: white;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+  overflow-y: auto;
+  z-index: 1050;
+  transition: transform 0.3s ease-out;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow-x: hidden;
+}
+.modal-form .form-label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+.modal-form .form-group {
+  margin-bottom: 15px;
+}
+.modal-form .form-control {
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 10px;
+  width: 100%;
+}
+.headers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.second-item {
+  margin-right: 21px;
+}
+.title-model {
+  font-size: 1rem;
+}
+
+.btn-close {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  margin-top: 25px;
+  margin-right: 20px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.button-footer {
+  display: flex;
+  justify-content: start;
+  padding: 0.2rem;
+}
+
+.required::after {
+  content: "*";
+  color: red;
+  margin-left: 4px;
+}
+
+.add-btn {
+  background-color: #22b470;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.cancle-btn {
+  background-color: #f5f5f5;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.modal-body {
+  padding: 10px;
+}
+
+.invalid-feedback-red {
+  color: red;
+}
+.headers-data {
+  display: flex;
+  gap: 20;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}

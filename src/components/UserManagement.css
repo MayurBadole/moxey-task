@@ -1,0 +1,164 @@
+/* Center the entire application */
+.App {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Button styles */
+button {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: separate;
+  border-spacing: 0 10px;
+}
+
+thead {
+  background-color: #f8f9fa;
+  font-size: 14px;
+  text-align: left;
+}
+
+th {
+  padding: 20px 20px;
+  font-weight: bold;
+}
+
+tbody tr {
+  background-color: #ffffff;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+td {
+  padding: 10px;
+}
+
+td:first-child {
+  border-radius: 10px 0 0 10px;
+}
+
+td:last-child {
+  border-radius: 0 10px 10px 0;
+}
+
+/* Status button styles */
+.status-button {
+  background-color: #c9e2d8;
+  color: black;
+  border-color: #22b470;
+  padding: 5px 30px;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: default;
+}
+
+/* Action button styles */
+.action-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+/* Modal form styles */
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+.modal-footer {
+  border-top: none;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  border-radius: 5px;
+}
+
+.form-control.is-invalid {
+  border-color: #dc3545;
+}
+
+.form-control:focus {
+  border-color: #80bdff;
+  box-shadow: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.add-user-btn {
+  background-color: #22b470;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  cursor: pointer;
+  background-color: #f5f5f5;
+  position: absolute;
+  top: 25px;
+  left: -50px;
+  width: 130px;
+  text-align: center;
+  padding: 10px 10px;
+}
+.dropdown {
+  position: relative;
+  cursor: pointer;
+}
+
+.dropbtn {
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+/* Overlay styles */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(31, 41, 55, 0.8);
+  opacity: 0.7;
+  z-index: 40;
+}
